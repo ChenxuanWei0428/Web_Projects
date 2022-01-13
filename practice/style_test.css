@@ -1,0 +1,62 @@
+h1 {
+    color:orange;
+    text-align: center;
+    height: 200px;
+    background-color: red;
+    font-size: 1cm;
+    padding: 20px;
+    margin: 20px;
+}
+h2 {
+    color: red;
+}
+div1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    border: 33px solid black;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td > th {
+    border: 1px solid black;
+    padding: 5px
+}
+#fi {
+    color: blue;
+}
+.c {
+    color: red;
+}
+
+li[id="a"] {
+    color: red;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (min-width: 600px){
+    body {
+        background-color: navajowhite;
+    }
+}
+
+@media (max-width: 599px){
+    body {
+        background-color: orange;
+    }
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.link_to_other_page {
+    background-color: rgb(161, 233, 54);
+}
+
+
+.link_to_other_page > a {
+    text-decoration:none;
+    font-size: large;
+    text-align: center;
+    width: 700px;
+
+    background-color: red;
+}
+
+a:hover {
+    color: purple;
+}

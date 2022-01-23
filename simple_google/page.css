@@ -1,5 +1,6 @@
-.link_to_other_page {
-    background-color: rgb(161, 233, 54);
+.page {
+    background-color: chartreuse;
+    height: 700px;
 }
 
 
@@ -7,9 +8,9 @@
     text-decoration:none;
     font-size: large;
     text-align: center;
-    width: 700px;
-
-    background-color: red;
+    width: 200px;
+    position:absolute; 
+    right: 10px;
 }
 
 a:hover {

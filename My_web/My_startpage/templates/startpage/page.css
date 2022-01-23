@@ -1,7 +1,3 @@
-.page {
-    background-color: chartreuse;
-    height: 700px;
-}
 
 
 .link_to_other_page > a {
@@ -11,8 +7,12 @@
     width: 200px;
     position:absolute; 
     right: 10px;
+    color: blue;
 }
 
 a:hover {
     color: purple;
+}
+.topic {
+    text-align: center;
 }

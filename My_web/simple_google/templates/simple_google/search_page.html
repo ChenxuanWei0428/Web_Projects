@@ -1,8 +1,10 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="{{ STATIC_URL }}page.css">
+        <link rel="stylesheet" href="{% static 'simple_google/page.css' %}">
     </head>
     <body bgcolor="white">
         <div class="page">
@@ -11,9 +13,15 @@
                 <br>
                 <a href="http://127.0.0.1:8000/My_startpage/a">Google advance page</a>
             </div> 
-            <div class="Topic">
-                <h1>Welcome, {{ name }}</h1>
+            <div id="Topic">
+                <h1>Welcome, this is a simple google search engine I designed for practice</h1>
             </div>
+
+            <div id="Google">
+                <input type="text" name="search_content">
+                <input type="submit" name="search"> 
+            </div>
+
         </div>
 
     </body>

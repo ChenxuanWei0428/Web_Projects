@@ -7,10 +7,12 @@ from django.shortcuts import render
 # 
 # 
 # .
-def start(request, name):
-    return render(request, "startpage\search_page.html", {
-        "name": name.capitalize()
-    })
+def start(request):
+    return render(request, "simple_google\search_page.html")
+
+
+
+
 
 
 

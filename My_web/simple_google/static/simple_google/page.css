@@ -1,0 +1,24 @@
+
+
+.link_to_other_page a {
+    text-decoration:none;
+    font-size: x-large;
+    color: blue;
+    margin: 50px;
+}
+
+.link_to_other_page {
+    float: right;
+}
+
+a:hover {
+    color: purple;
+}
+#topic h1{
+    text-align: center;
+    background-color: red;
+}
+
+#Google {
+    background-color: greenyellow;
+}

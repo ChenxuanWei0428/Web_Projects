@@ -6,5 +6,6 @@ from . import views
 
 app_name = "simple_google"
 urlpatterns = [
+    # this page will take take to regular search page
     path("", views.start, name="start"),
 ]

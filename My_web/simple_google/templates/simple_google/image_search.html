@@ -5,13 +5,15 @@
 {% endblock %}
 
 {% block search_engine %}
-    <input type="text">
-    <input type="submit"
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <input type="submit" value="Google Search">
+    </form>
 {% endblock %}
 
 {% block url %}
-    <a href="http://127.0.0.1:8000/My_startpage/b">Google search page</a>
+    <a href="http://127.0.0.1:8000/simple_google">Google search page</a>
     <br>
-    <a href="http://127.0.0.1:8000/My_startpage/a">Google advance page</a> 
+    <a href="http://127.0.0.1:8000/simple_google/advance">Google advance page</a> 
 {% endblock %}
 

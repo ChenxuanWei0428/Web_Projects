@@ -7,8 +7,14 @@ from django.shortcuts import render
 # 
 # 
 # .
-def start(request):
+def search(request):
     return render(request, "simple_google\search_page.html")
+
+def advance(request):
+    return render(request, "simple_google/advance_search.html")
+
+def image(request):
+    return render(request, "simple_google\image_search.html")
 
 
 

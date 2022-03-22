@@ -60,3 +60,7 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
+input {
+    float: inline-end;
+}

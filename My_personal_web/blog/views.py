@@ -11,3 +11,10 @@ from django.shortcuts import render
 # my cs project
 def start(request):
     return HttpResponse("hello")
+
+
+def cooking(request):
+    return HttpResponse("cooking page")
+
+def message(request, name, detail):
+    return HttpResponse(f"The name of the message is {name} \n, message is {detail} \n")

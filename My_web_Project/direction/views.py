@@ -6,7 +6,13 @@ from django.shortcuts import render
 # 
 # .
 def start(request):
-    return HttpResponse(f"Hello")
+    return render(request, "direction\direction.html")
+
+def still_building(request):
+    return render(request, "direction\still_building.html")
+
+
+
 
 
 

@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="{% static 'direction/direction.css' %}">
+    </head>
+    <body bgcolor="white">
+        <div id="page">
+            <h1> Welcome to all of my web application!</h1>
+            <h3> This is a direction page, select the one you want to use!</h3>
+
+
+            <div id="links">
+                <a href="{% url 'direction:still_building' %}">take_a_break_app</a>
+            </div>
+        </div>
+    </body>
+</html>

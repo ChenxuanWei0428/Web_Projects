@@ -21,5 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path("", include("direction.urls")),
     path('admin/', admin.site.urls),
-    path('simple_google/', include("simple_google.urls")),
+    path('take_a_break/', include("take_a_break.urls")),
 ]
